@@ -24,7 +24,7 @@ class Artist
   
   def self.song_count
     binding.pry
-    Song.all.uniq.length # don't understand where the data is coming from for the test for this, or why I have to have .uniq to make it pass
+    Song.all.uniq.length # don't understand where the data is coming from for the test for this (and why there are duplicate entries in Song.all)
   end
     
 end
