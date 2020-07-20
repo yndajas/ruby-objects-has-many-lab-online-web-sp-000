@@ -9,7 +9,7 @@ class Song
   end
   
   def save
-    @@all << self
+    if !@@all.include?(self) << self
   end
   
   def self.all
