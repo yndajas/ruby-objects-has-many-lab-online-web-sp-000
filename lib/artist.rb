@@ -23,7 +23,8 @@ class Artist
   end
   
   def self.song_count
-    Song.all.uniq.length
+    binding.pry
+    Song.all.uniq.length # don't understand where the data is coming from for the test for this, or why I have to have .uniq to make it pass
   end
     
 end
