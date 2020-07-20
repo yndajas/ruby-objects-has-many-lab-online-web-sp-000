@@ -9,7 +9,6 @@ class Song
   end
   
   def save
-    binding.pry
     if !@@all.include?(self)
       @@all << self
     end
