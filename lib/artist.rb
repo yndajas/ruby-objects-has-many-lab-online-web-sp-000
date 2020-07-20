@@ -23,7 +23,7 @@ class Artist
   end
   
   def self.song_count
-    Song.all.length # don't understand where the data is coming from for the test for this (and why there are duplicate entries in Song.all)
+    Song.all.length
   end
     
 end
