@@ -10,7 +10,7 @@ class Song
   
   def save
     binding.pry
-    if !(@@all.include?(self)) << self
+    if !@@all.include?(self) {@@all << self}
   end
   
   def self.all
